@@ -19,3 +19,21 @@ The flow of the program should be:
 ## Phrase 2 (memory constraint and scalability)
 
 Now taking into account the input file might not fit into memory, which also means the result map would not fit into memory. We can use the divide and conquer approach, splitting the input file into smaller chunks and solving each chunk as we did in phrase 1. The final step would be to merge the output files of all chunks into a single file. This step would be made easier if we first sort the anagram results from each chunk, that way we only have to compare the first line from each output file and merge the result, just like the idea of merge sort.
+
+## Setup
+
+Requires `nodejs v18.15.0+`
+
+Install dependencies
+
+```sh
+npm install
+```
+
+## Usage
+
+Running command line anagram solver
+
+```sh
+npm run anagram input.txt
+```
