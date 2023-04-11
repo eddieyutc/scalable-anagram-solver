@@ -1,0 +1,30 @@
+{
+  "name": "scalable-anagram-solver",
+  "version": "1.0.0",
+  "description": "The objective of this project is to create a command line program that solves the anagram problem, with the potential to scale horizontally. The program should take in a file containing a list of words with the assumption that it doesn't fit in memory, and produce an output file such that the words that are anagrams of each other are on the same line.",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "jest",
+    "anagram": "ts-node src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddieyu1998/scalable-anagram-solver.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eddieyu1998/scalable-anagram-solver/issues"
+  },
+  "homepage": "https://github.com/eddieyu1998/scalable-anagram-solver#readme",
+  "dependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.0.4"
+  }
+}
